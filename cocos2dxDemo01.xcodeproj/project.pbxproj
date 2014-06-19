@@ -280,6 +280,7 @@
 		149367EC1952AAFC00C9E7D9 /* libwebsockets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 149367EB1952AAFC00C9E7D9 /* libwebsockets.a */; };
 		149367F21952AAFC00C9E7D9 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149367F11952AAFC00C9E7D9 /* AppDelegate.cpp */; };
 		149367F51952AAFC00C9E7D9 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 149367F41952AAFC00C9E7D9 /* HelloWorldScene.cpp */; };
+		149367FC1952B0B500C9E7D9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 149367FB1952B0B500C9E7D9 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -873,6 +874,7 @@
 		149367F11952AAFC00C9E7D9 /* AppDelegate.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AppDelegate.cpp; path = Classes/AppDelegate.cpp; sourceTree = "<group>"; };
 		149367F31952AAFC00C9E7D9 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		149367F41952AAFC00C9E7D9 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
+		149367FB1952B0B500C9E7D9 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -900,6 +902,7 @@
 		149364421952AAF700C9E7D9 = {
 			isa = PBXGroup;
 			children = (
+				149367FB1952B0B500C9E7D9 /* Default-568h@2x.png */,
 				1493645E1952AAF700C9E7D9 /* cocos2dxDemo01 */,
 				1493644D1952AAF700C9E7D9 /* Frameworks */,
 				1493644C1952AAF700C9E7D9 /* Products */,
@@ -2156,6 +2159,7 @@
 				149364611952AAF700C9E7D9 /* CloseNormal.png in Resources */,
 				1493646D1952AAF700C9E7D9 /* Icon-Small.png in Resources */,
 				149364691952AAF700C9E7D9 /* Icon-72.png in Resources */,
+				149367FC1952B0B500C9E7D9 /* Default-568h@2x.png in Resources */,
 				149364671952AAF700C9E7D9 /* HelloWorld.png in Resources */,
 				1493646B1952AAF700C9E7D9 /* Icon-Small-50.png in Resources */,
 				149364751952AAF700C9E7D9 /* iTunesArtwork in Resources */,
@@ -2510,10 +2514,9 @@
 					"-lxml2",
 					"-lz",
 					"-lsqlite3",
-					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"cocos2dxDemo01/libs/Chipmunk/include/chipmunk\"";
+				USER_HEADER_SEARCH_PATHS = "\"cocos2dxDemo01/libs/Chipmunk/include/chipmunk\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/cocos2dx\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/CocosDension\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/external\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/extensions\"";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -2536,10 +2539,9 @@
 					"-lxml2",
 					"-lz",
 					"-lsqlite3",
-					"-websockets",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				USER_HEADER_SEARCH_PATHS = "\"cocos2dxDemo01/libs/Chipmunk/include/chipmunk\"";
+				USER_HEADER_SEARCH_PATHS = "\"cocos2dxDemo01/libs/Chipmunk/include/chipmunk\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/cocos2dx\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/CocosDension\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/external\" \"/Users/keweicai/Downloads/cocos2dx-x-2.1.5/extensions\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
